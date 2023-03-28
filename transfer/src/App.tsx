@@ -34,7 +34,7 @@ function App() {
         SystemProgram.transfer({
           fromPubkey: fromAccount.publicKey,
           toPubkey: toPublicKey,
-          lamports:1990000000, // 2 SOL
+          lamports:2000000000, // 2 SOL
         })
       );
 
